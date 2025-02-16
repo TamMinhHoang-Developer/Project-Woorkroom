@@ -1,0 +1,14 @@
+<p>signup works!</p>
+<button (click)="handlerLoginEmail()">Register</button>
+
+@if(!isOtpSent) {
+  <input type="text" [(ngModel)]="phoneNumber" placeholder="Nhập số điện thoại">
+  <button (click)="sendOtp()">Gửi OTP</button>
+}
+
+@if(isOtpSent) {
+  <input type="text" [(ngModel)]="otpCode" placeholder="Nhập mã OTP">
+  <button (click)="verifyOtp()">Xác minh OTP</button>
+}
+
+<div id="recaptcha-container"></div>

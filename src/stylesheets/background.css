@@ -1,0 +1,7 @@
+.main-background {
+  background: var(--main-bg-color);
+}
+
+.t-bg--white {
+  background: var(--bg-color--white);
+}

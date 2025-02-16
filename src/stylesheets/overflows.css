@@ -1,0 +1,7 @@
+.t-overflow--hidden {
+  overflow: hidden;
+}
+
+.t-overflow--auto {
+  overflow: auto;
+}

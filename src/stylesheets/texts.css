@@ -1,0 +1,11 @@
+.t-text--center {
+  text-align: center;
+}
+
+.t-text--start {
+  text-align: start;
+}
+
+.t-text--end {
+  text-align: end;
+}

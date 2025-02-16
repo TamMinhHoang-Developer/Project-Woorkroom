@@ -1,0 +1,41 @@
+/** Flex */
+.t-flex {
+  display: flex;
+}
+
+.t-flex--1 {
+  flex: 1;
+}
+
+.t-flex--2 {
+  flex: 2;
+}
+
+.t-flex--3 {
+  flex: 4;
+}
+
+/** Gap */
+.t-gap-10 {
+  gap: 10px;
+}
+
+
+.t-gap-30 {
+  gap: 30px;
+}
+
+
+/** Align  */
+.t-align-center {
+  align-items: center;
+}
+
+/** Justify */
+.t-justify-center {
+  justify-content: center;
+}
+
+.t-justify--space-between {
+  justify-content: space-between;
+}
